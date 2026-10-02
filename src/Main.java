@@ -18,7 +18,7 @@ public class Main {
 
         SmartLogger smartL = new SmartLogger();
         smartL.log("Some error message");
-        smartL.log("Some Error message");
         smartL.log("Warning identified, check logs");
+        smartL.log("Some Error message");
     }
 }
