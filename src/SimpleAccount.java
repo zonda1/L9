@@ -25,9 +25,4 @@ public class SimpleAccount extends Account {
         return true;
     }
 
-    @Override
-    public boolean transfer(Account account, long amount) {
-        pay(amount);
-        return account.add(amount);
-    }
 }
